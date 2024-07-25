@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeev's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for circular logos */
+        .experience-item {
+            position: relative;
+        }
+        .experience-logo {
+            position: absolute;
+            top: 10px;
+            left: 25px;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .experience-logo img {
+    width: 100%;
+    height: auto%;
+    object-fit: cover; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+        /* Adjust the navigation bar to include Experience */
+        .nav-links a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Sanjeev's Portfolio</a>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Sanjeev's Portfolio</h1>
+                <p>Welcome to my portfolio showcasing my work in machine learning and finance.</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-content">
+                <h2>About Me</h2>
+                <p>I'm Sanjeev Subramanian, a motivated high school student at Thomas Jefferson High School for Science and Technology. I'm passionate about the intersection of business, finance, and technology. Currently, I'm exploring various projects that integrate these fields to drive innovation and efficiency. Feel free to reach out to me below or at sanjeevsubramanian0@gmail.com!</p>
+                <img src="your-image.jpg" alt="Your Image">
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="section-content">
+                <h2>Work Experience</h2>
+                <div class="experience-grid">
+                    <!-- Experience 1 -->
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <img src="ai-research-logo.jpg" alt="AI Research Logo">
+                        </div>
+                        <h3>Data Modeler</h3>
+                        <h4>AI Research</h4>
+                        <p class="date">Nov '23 - Jun '24</p>
+                        <ul>
+                            <li>Developed AI models for skin disease detection.</li>
+                            <li>Leveraged ISIC-2019 dataset for training.</li>
+                            <li>Improved healthcare accessibility through ML.</li>
+                        </ul>
+                    </div>
+                    <!-- Experience 2 -->
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <img src="building-u-logo.jpg" alt="Building-U Logo">
+                        </div>
+                        <h3>Marketing and Business Development Intern</h3>
+                        <h4>Building-U</h4>
+                        <p class="date">Jan '24 - Present</p>
+                        <ul>
+                            <li>Implemented sustainability campaign.</li>
+                            <li>Raised $600 for competition prizes.</li>
+                            <li>Supported grassroots fundraising initiatives.</li>
+                        </ul>
+                    </div>
+                    <!-- Experience 3 -->
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <img src="streetfins-logo.jpg" alt="StreetFins Logo">
+                        </div>
+                        <h3>Social Media Manager</h3>
+                        <h4>StreetFins</h4>
+                        <p class="date">Feb '24 - Present</p>
+                        <ul>
+                            <li>Published "Stock Sunday" series.</li>
+                            <li>Provided comprehensive market assessments.</li>
+                            <li>Enhanced financial decision-making.</li>
+                        </ul>
+                    </div>
+                    <!-- Experience 4 -->
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <img src="gmu-logo.jpg" alt="George Mason University Logo">
+                        </div>
+                        <h3>Research Intern</h3>
+                        <h4>George Mason University</h4>
+                        <p class="date">Mar '24 - Present</p>
+                        <ul>
+                            <li>Developed predictive model for energy usage.</li>
+                            <li>Performed extensive data analysis on weather data.</li>
+                            <li>Drafted research paper on findings.</li>
+                        </ul>
+                    </div>
+                    <!-- Experience 5 -->
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <img src="nyu-stern-logo.jpg" alt="NYU Stern Logo">
+                        </div>
+                        <h3>Research Intern</h3>
+                        <h4>NYU Stern</h4>
+                        <p class="date">Jun '24 - Present</p>
+                        <ul>
+                            <li>Analyzed historical U.S. federal bonds.</li>
+                            <li>Utilized Python and Jupyter Notebooks.</li>
+                            <li>Enhanced skills in economic modeling.</li>
+                        </ul>
+                    </div>
+                    <!-- Experience 6 -->
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <img src="mclean-investment-group-logo.jpg" alt="McLean Investment Group Logo">
+                        </div>
+                        <h3>Intern</h3>
+                        <h4>McLean Investment Group</h4>
+                        <p class="date">Jun '24 - Present</p>
+                        <ul>
+                            <li>Identified potential acquisition targets.</li>
+                            <li>Conducted financial analyses for viability.</li>
+                            <li>Applied value investing principles.</li>
+                        </ul>
+                    </div>
+                    <!-- Placeholder for additional experiences -->
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <img src="czech-logo.jpg" alt="Placeholder Logo">
+                        </div>
+                        <h3>Financial Analyzer</h3>
+                        <h4>Nový PORG Investment Society</h4>
+                        <p class="date">March '24 - Jun '24</p>
+                        <ul>
+                            <li>Chosen for financial modeling collaboration</li>
+                            <li>Engaged in international knowledge exchange</li>
+                            <li>Contributed to cross-cultural financial publications</li>
+                        </ul>
+                    </div>
+                    <!-- Placeholder for additional experiences -->
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <img src="revroad-logo.jpg" alt="Placeholder Logo">
+                        </div>
+                        <h3>Intern</h3>
+                        <h4>Revroad</h4>
+                        <p class="date">May '24 - Jun '24</p>
+                        <ul>
+                            <li>Conducted in-depth edtech market research</li>
+                            <li>Aligned startups with investment philosophy</li>
+                            <li>Provided growth-focused investment summary</li>
+                        </ul>
+                    </div>
+                    <!-- Placeholder for additional experiences -->
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <img src="headstarter-logo.jpg" alt="Placeholder Logo">
+                        </div>
+                        <h3>SWE Fellow</h3>
+                        <h4>HeadStarter AI</h4>
+                        <p class="date">Jul '25 - Present</p>
+                        <ul>
+                            <li>Developed 5+ AI apps with 98% accuracy using NextJS and OpenAI.</li>
+                            <li>Led 4 engineers on projects using MVC design patterns.</li>
+                            <li>Trained in Agile and CI/CD by engineers from Amazon, Bloomberg, and Capital One.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-content">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project">
+                        <img src="project1-image.jpg" alt="Project 1 Image">
+                        <h3>Stock Price Prediction</h3>
+                        <p>Harnessing the power of deep learning, I developed a cutting-edge predictive model using Long Short-Term Memory (LSTM) networks, achieving an impressive 96% accuracy in forecasting stock prices with data from Yahoo Finance. This innovative project leverages advanced machine learning techniques to provide highly accurate predictions, demonstrating the potential of AI in revolutionizing financial analysis and investment strategies.</p>
+                    </div>
+                    <div class="project">
+                        <img src="project2-image.jpg" alt="Project 2 Image">
+                        <h3>Banknote Authentication</h3>
+                        <p>In this exciting project, I leveraged advanced machine learning techniques to develop a highly accurate banknote authentication system. Utilizing the power of Random Forest Classifiers, I meticulously tuned the model parameters through an extensive GridSearchCV process to identify the optimal settings. With features extracted from real-world data, the final model achieved an exceptional accuracy rate, demonstrating its efficacy in distinguishing between genuine and counterfeit banknotes.</p>
+                    </div>
+                    <div class="project">
+                        <img src="project3-image1.jpg" alt="Project 3 Image">
+                        <img src="project3-image2.jpg" alt="Project 3 Image">
+                        <h3>Investment Portfolio Analysis</h3>
+                        <p>In this project, I developed an interactive investment portfolio dashboard using Streamlit and yFinance. Users can input their chosen assets and corresponding weights, and the application fetches historical stock data to analyze portfolio performance and risk. The dashboard compares the portfolio's cumulative returns and risk against the S&P 500 benchmark, providing visualizations and insights into portfolio composition and volatility. This tool helps investors assess and understand the performance and risk profile of their investments in a clear and user-friendly interface.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-content">
+                <h2>Contact</h2>
+                <form>
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; Sanjeev's Portfolio</p>
+            <div class="social-icons">
+                <a href="https://github.com/sanjeev0813" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sanjeev-subramanian-a240922b1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="animations.js"></script>
+</body>
+</html>
